@@ -1,0 +1,19 @@
+spring:
+  redis:
+    host: redis.uwjx.com
+    database: 3
+    password: K10opUjks2jyD7h2q
+    port: 6380
+  datasource:
+    url: jdbc:mysql://localhost:3306/dbgirl?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  type-aliases-package: com.luo.springboot01cache.entity
+  mapper-locations: classpath:mapper/*.xml
+server:
+  port: 8081
+
+
+
